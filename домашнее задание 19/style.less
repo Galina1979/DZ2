@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@color1: rgb(21, 77, 126);
+@color2:rgb(255, 255, 255);
+@color3: rgb(230, 230, 230);
+@color4: rgb(148, 148, 148);
+@family: Arial, Helvetica, sans-serif;
+@borderrad: 5px;
+@border: 1px solid rgb(209, 209, 209);
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1%;
+    background-color: @color1;
+   .head_one{
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    color: @color2;
+    margin-left: 40px;
+    justify-self: start;
+   }
+   .head_two{
+    font-size: 10pt;
+    font-family: @family;
+    align-self: center;
+    color: @color2;
+    justify-self: end;
+    margin-right: 40px;
+   }
+}
+main{
+    background-color: @color3;
+    padding-top: 30px;
+    height: 700px;
+}
+.box1{
+    font-family: @family;
+    font-size: 12pt;
+    margin-left: 50px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 20px 50px;
+    font-family: @family;
+    gap: 10px;
+    
+    input{
+    height: 28px;
+    width: 190px;
+    border-radius: @borderrad;
+    border: @border;
+    padding-left: 15px;
+    box-shadow: 1px 1px 3px 0px @color4;
+    }
+    select{
+    height: 30px;
+    width: 190px;
+    border-radius: @borderrad;
+    border: @border;
+    box-shadow: 1px 1px 3px 0px @color4;
+    }
+    button{
+    height: 30px;
+    width: 190px;
+    border-radius: @borderrad; 
+    background-color: @color1;
+    color: @color2;
+    border: @border;
+    }
+    button:hover{
+    background-color: lightskyblue;
+    color: rgb(0, 0, 0);
+    }
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+.box3{
+    height: 80%;
+    border-radius: @borderrad; 
+    background-color: @color2;
+    border: @border;
+    font-family: @family;
+    padding: 30px;
+    font-size: 11pt;
+    box-shadow: 1px 1px 5px 0px @color4;
+    h3{
+        padding-bottom: 10px;
+    }
+     h4{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: @color1;
+    }
+}
+.inp1, .inp2, .inp3, .inp4, .inp5, .inp6, .inp7, .inp8{
+padding-top: 5px;
+}
+.inp-5, .inp-7{
+    padding-top: 30px;
+}
+.block1 .block2 .block3{
+    display: flex;
+    flex-direction: column;
+    font-family: @family;
+}
+.block2inp{
+    display: flex;
+    gap: 10px;
+    input{
+        width: 60px;
+        height: 20px;
+        padding: 5px;
+    }
+}
+.box4{
+    display: grid;
+    grid-template-rows: 2fr 1fr 10fr 1fr;
+    border-radius: @borderrad; 
+    background-color: @color2;
+    border: @border;
+    font-family: @family;
+    box-shadow: 1px 1px 5px 0px @color4;
+    h4{
+        padding-left: 40%;
+        padding-top: 25px; 
+    }
+   .block4{
+        display: flex;
+        padding-right: 260px;
+        color: @color1;
+        background-color: @color3;
+        padding-top: 12px;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+}
+.block5{
+    padding: 10px 0px 20px 0px;
+}
+.sek1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-bottom: 1px solid @color3;
+    
+    .p-one{
+        font-size: 12pt;
+        padding-top: 10px;
+    }
+    .p-two{
+        font-size: 9pt;
+        color: @color4;
+        padding-top: 5px;
+    }
+    .p-three{
+        font-size: 9pt;
+        color: @color1;
+        padding-top: 5px;
+    }
+    .p_one{
+        font-size: 12pt;
+        padding-top: 20px;
+    }
+}
+.sek1>div{
+    display: flex;
+    flex-direction: column;
+   justify-items: center;
+    align-items: center; 
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    button{
+        height: 30px;
+        width: 100px;
+        border-radius: @borderrad; 
+        background-color: @color1;
+        color: @color2;
+        border: @border;
+        }
+        button:hover{
+        background-color: lightskyblue;
+        color: rgb(0, 0, 0);
+        }
+}
