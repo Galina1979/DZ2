@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-fixed {
+  position: relative;
+  height: 56px;
+  width: 100%;
+  border-radius: 0%;
+}
+.navbar-fixed nav {
+  position: fixed;
+  background-color: #3b497f;
+}
+.container .right img {
+  height: 50px;
+  margin-top: 8px;
+}
+.input {
+  background-color: #3b497f;
+}
+.poick {
+  color: #fff;
+  background-color: #ffffff;
+  width: 80%;
+  height: 56px;
+  line-height: 56px;
+  margin: auto;
+  box-shadow: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.poick h4 {
+  position: absolute;
+  left: 12%;
+  margin-top: 12px;
+}
+nav .input-field label i {
+  color: #21295f;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+.input-field {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+h4 {
+  color: black;
+  position: absolute;
+  right: 0;
+}
+.col .card {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.card .card-content {
+  grid-template-rows: repeat(1, 1fr);
+}
+.card .card-action {
+  grid-template-rows: repeat(1, 1fr);
+}
+.card.horizontal .card-image {
+  max-width: 100%;
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+.card.horizontal .card-image img {
+  width: 60%;
+  margin: auto;
+}
+nav .input-field {
+  height: 100%;
+}
+.nav-wrapper1 {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  margin-left: 55%;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #7083cd;
+  margin-right: 24px;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
