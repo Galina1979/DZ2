@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>урок циклы</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+    <!-- 1. Подсчитать сумму всех чисел в заданном пользователем
+    диапазоне. -->
+    
+   <!-- 5. Запросить у пользователя 10 чисел и подсчитать, сколько
+он ввел положительных, отрицательных и нулей. При этом
+также посчитать, сколько четных и нечетных. Вывести
+статистику на экран. Учтите, что достаточно одной переменной (не 10) для ввода чисел пользователем. -->
+
+<h1>Статистика чисел</h1>
+<p>Введите числа через запятую</p>
+<input type="text" id="numberInput" placeholder="Введите числа через запятую">
+<button class="submitButton">Посчитать</button>
+<div>
+    <p>Положительных чисел: <span id="positiveCount">0</span></p>
+    <p>Отрицательных чисел: <span id="negativeCount">0</span></p>
+    <p>Нулей: <span id="zeroCount">0</span></p>
+    <p>Четных чисел: <span id="evenCount">0</span></p>
+    <p>Нечетных чисел: <span id="oddCount">0</span></p>
+</div>
+
+<!-- 3. Вывести все числа от 1 до 100, которые кратные указанному
+пользователем числу. -->
+<h2>Введите число:</h2>
+<label for="userNumber">Введите число:</label>
+<input type="number" id="userNumber" min="1">
+<button id="butbut">Найти</button>
+<div id="result"></div>
+
+
+
+<!-- 5. Запросить число и проверить, простое ли оно. Простое
+число делится без остатка только на себя и на единицу -->
+
+<h1>Проверка на простое число</h1>
+    <p>Введите число:</p> 
+    <input type="text" id="numberInp">
+    <button id="but">Проверить</button>
+    <p id="result_o"></p>
+
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
