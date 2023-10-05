@@ -1,0 +1,42 @@
+h3{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.tabs {
+    border: 1px solid #666;
+    padding: 10px;
+    margin: 50px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.tab {
+    cursor: pointer; 
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 5px 10px;
+}
+
+.content {
+    display: flex; 
+    align-items: center; 
+}
+
+img {
+    height: 20%;
+    width: 40%;
+    vertical-align: middle; 
+    margin-right: 20px;
+}
+
+.tab-body p {
+    flex: 1; 
+    margin: 0; 
+    font-size: 15pt;
+}
