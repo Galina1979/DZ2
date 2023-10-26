@@ -1,0 +1,18 @@
+.ord{
+    border-collapse: collapse;
+}
+.ord td{
+    padding: 10px;
+    border: 2px solid seagreen;
+}
+
+
+.ord_seek{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.ord_seek td{
+    padding: 10px;
+    border: 2px solid rgb(255, 81, 0);
+}
