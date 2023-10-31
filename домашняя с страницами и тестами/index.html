@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>урок формы</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<h3>Пройди тест</h3>
+    <div class="tabs">
+        <ul>
+        <li class="tab active" data="1">One</li>
+        <li class="tab" data="2">Two</li>
+        <li class="tab" data="3">Three</li>
+        </ul>
+        <div class="tab-body" data="1">
+            <div class="content">
+                <p>Вопрос 1: Кто из людей первым в мире полетел в космос?</p>
+               <input type="radio" id="q1_option1" name="q1_page" value="1">
+               <label for="q1_option1">Алексей Леонов</label>
+                <input type="radio" id="q1_option2" name="q1_page" value="2">
+               <label for="q1_option2">Юрий Гагарин</label>
+               <input type="radio" id="q1_option3" name="q1_page" value="3">
+               <label for="q1_option3">Валентина Терешкова</label>
+                <br><br>
+            <p>Вопрос 2: Вокруг чего вращаются планеты Солнечной системы?</p>
+            <input type="radio" id="q2_option1" name="q2_page" value="1"> 
+              <label for="q2_option1">Вокруг Луны</label>
+            <input type="radio" id="q2_option2" name="q2_page" value="2"> 
+              <label for="q2_option2">Вокруг Солнца</label>
+            <input type="radio" id="q2_option3" name="q2_page" value="3">
+              <label for="q2_option3">Вокруг Земли</label>
+            <br><br>
+            <p>Вопрос 3: Сколько материков на земле?</p>
+            <input type="radio" id="q3_option1" name="q3_page" value="1"> 
+              <label for="q3_option1">5</label>
+            <input type="radio" id="q3_option2" name="q3_page" value="2">
+              <label for="q3_option2">7</label> 
+            <input type="radio" id="q3_option3" name="q3_page" value="3"> 
+              <label for="q3_option3">6</label>
+            <br><br>
+            <hr>
+            <button type="button" class="butbut">Подсчитать баллы</button>
+          <input type="text" class="answer" value="">
+        </div>
+    </div>
+    <div class="tab-body" data="2">
+        <div class="content_1">
+            <p>Вопрос 1: В какой области не присуждается Нобелевская премия?</p>
+            <input type="radio" id="q1_option1" name="q1_page1" value="1">
+              <label for="q1_option1">Математика</label> 
+            <input type="radio" id="q1_option2" name="q1_page1" value="2"> 
+              <label for="q1_option2">Химия</label>
+            <input type="radio" id="q1_option3" name="q1_page1" value="3"> 
+              <label for="q1_option3">Литература</label>
+            <br><br>
+            <p>Вопрос 2: В какой области вручается премия Ласкера?</p>
+            <input type="radio" id="q2_option1" name="q2_page1" value="1"> 
+              <label for="q2_option1">Медицина</label>
+            <input type="radio" id="q2_option2" name="q2_page1" value="2"> 
+              <label for="q2_option2">Шахматы</label>
+            <input type="radio" id="q2_option3" name="q2_page1" value="3"> 
+              <label for="q2_option3">Математика</label>
+            <br><br>
+            <p>Вопрос 3: В какой области вручается премия Абеля?</p>
+            <input type="radio" id="q3_option1" name="q3_page1" value="1"> 
+              <label for="q3_option1">Неврология</label>
+            <input type="radio" id="q3_option2" name="q3_page1" value="2"> 
+              <label for="q3_option2">Астрофизика</label>
+            <input type="radio" id="q3_option3" name="q3_page1" value="3"> 
+              <label for="q3_option3">Математика</label>
+            <br><br>
+            <hr>
+            <button type="button_1" class="butbut_1">Подсчитать баллы</button>
+          <input type="text" class="answer_1" value="">
+        </div>
+    </div>
+    <div class="tab-body" data="3">
+        <div class="content_2">
+            <p>Вопрос 1: Укажите имя актрисы, сыгравшей главную женскую роль в фильме «Москва слезам не верит»</p>
+            <input type="radio" id="q1_option1" name="q1_page2" value="1"> 
+              <label for="q1_option1">Ирина Алферова</label>
+            <input type="radio" id="q1_option2" name="q1_page2" value="2">
+              <label for="q1_option2"> Вера Алентова</label>
+            <input type="radio" id="q1_option3" name="q1_page2" value="3">
+              <label for="q1_option3">Светлана Крючкова</label>
+            <br><br>
+            <p>Вопрос 2: Из какого фильма взята фраза «Что вы меня поливаете?! Я же не клумба…»?</p>
+            <input type="radio" id="q2_option1" name="q2_page2" value="1"> 
+              <label for="q2_option1">«Ирония судьбы, или с легким паром!»</label>
+            <input type="radio" id="q2_option2" name="q2_page2" value="2"> 
+              <label for="q2_option2">«Самая обаятельная и привлекательная»</label>
+            <input type="radio" id="q2_option3" name="q2_page2" value="3"> 
+              <label for="q2_option3">«Белорусский вокзал»</label>
+            <br><br>
+            <p>Вопрос 3: Первый советский фантастический фильм – это:</p>
+            <input type="radio" id="q3_option1" name="q3_page2" value="1"> 
+              <label for="q3_option1">«Приключения Электроника»</label>
+            <input type="radio" id="q3_option2" name="q3_page2" value="2"> 
+              <label for="q3_option2">«Москва-Кассиопея»</label>
+            <input type="radio" id="q3_option3" name="q3_page2" value="3"> 
+              <label for="q3_option3">«Аэлита»</label>
+            <br><br>
+            <hr>
+            <button type="button_2" class="butbut_2">Подсчитать баллы</button>
+          <input type="text" class="answer_2" value="">
+        </div>
+    </div>
+
+</body>
+</html>
